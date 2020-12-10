@@ -1,3 +1,5 @@
+# kennedyengineering 2020
+
 import RPi.GPIO as GPIO
 import Adafruit_PCA9685
 # use BCM numbering
