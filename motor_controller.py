@@ -46,7 +46,7 @@ class Motor_Controller:
     def __init__(self, left1, right1, left2, right2, channel1, channel2):
         # configure H_BRIDGE
         self.h_bridge1 = H_Bridge(left1, right1)
-        self.h_brdige2 = H_Bridge(left2, right2)
+        self.h_bridge2 = H_Bridge(left2, right2)
         
         # configure PCA9685
         self.pwm = Adafruit_PCA9685.PCA9685()
@@ -99,5 +99,5 @@ class Motor_Controller:
         self.motor1(0)
         self.motor2(0)
         self.h_bridge1.cleanup()
-        self.h_brdige2.cleanup()
+        self.h_bridge2.cleanup()
 
