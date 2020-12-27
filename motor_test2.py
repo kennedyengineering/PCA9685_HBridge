@@ -51,7 +51,6 @@ while True:
     motors.motor1(left_motor_speed/10)
     motors.motor2(right_motor_speed/10)
     
-
 # cleanup GPIO
 motors.cleanup()
 
